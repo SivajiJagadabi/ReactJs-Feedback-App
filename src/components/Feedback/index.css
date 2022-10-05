@@ -1,0 +1,105 @@
+/* Write your CSS code here. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+.emoji-bg-container {
+  background-color: white;
+  border-radius: 8px;
+  width: 40%;
+  height: 180px;
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+  width: 45%;
+  height: 320px;
+}
+.feedback-heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+.feedback-card {
+  display: flex;
+}
+
+.emoji {
+  height: 38px;
+  width: 50px;
+}
+
+.emojis-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 30px;
+}
+
+.emojis-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  margin-right: 45px;
+  cursor: pointer;
+}
+
+.thank-container {
+  width: 40%;
+  height: 280px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.love-emoji {
+  height: 30px;
+  width: 40px;
+  margin-bottom: 0px;
+}
+.thank {
+  font-size: 20px;
+  margin-top: 0px;
+  margin-top: 10px;
+}
+
+.description {
+  color: #1e293b;
+  font-weight: 600;
+
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 865px) {
+  .feedback-container {
+    width: 90%;
+    height: 400px;
+  }
+  .feedback-heading {
+    font-size: 20px;
+  }
+  .thank-container {
+    width: 90%;
+    height: 400px;
+  }
+}
